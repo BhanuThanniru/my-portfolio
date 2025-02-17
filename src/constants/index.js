@@ -3,9 +3,9 @@ import project2 from "../assets/projects/project-2.webp";
 import project3 from "../assets/projects/project-3.webp";
 import project4 from "../assets/projects/project-4.webp";
 
-export const HERO_CONTENT = `I am a Software Engineer with 3 years of experience in designing, developing, and deploying scalable software solutions. Specializing in Full-Stack Development, I work with technologies like Java, Spring Boot, Angular, React, Next.js, and Node.js. Throughout my career, I have successfully delivered complex projects while focusing on writing clean, efficient code. I am driven by the opportunity to solve technical challenges and create solutions that enhance user experiences and contribute to business success.`;
+export const HERO_CONTENT = `I am a Software Engineer with 3 years of experience in designing, developing, and deploying software solutions. Specializing in Full-Stack Development, I work with technologies like Java, Spring Boot, Angular, React, Next.js, and Node.js. Throughout my career, I have successfully delivered complex projects while focusing on writing clean, efficient code. I am driven by the opportunity to solve technical challenges and create solutions that enhance user experiences and contribute to business success.`;
 
-export const ABOUT_TEXT = `A highly adaptable and results-driven Software Engineer with over 3 years of professional experience in full-stack development, including proficiency in Java, Workflow, Node.js, and TypeScript. Skilled in developing scalable applications and optimizing business processes, with expertise in MySQL, PostgreSQL, and MongoDB. Demonstrated success in collaborating with agile teams, streamlining workflows, and delivering innovative solutions for diverse industries. Adept at embracing challenges, driving technical modernization, and leveraging tools like Docker, Azure, and Git to build efficient systems.`;
+export const ABOUT_TEXT = `A highly adaptable and results-driven Software Engineer with over 3 years of professional experience in full-stack development, including proficiency in Java, Workflow, Node.js, and TypeScript. Skilled in developing applications and optimizing business processes, with expertise in MySQL, PostgreSQL, and MongoDB. Demonstrated success in collaborating with agile teams, streamlining workflows, and delivering innovative solutions for diverse industries. Adept at embracing challenges, driving technical modernization, and leveraging tools like Docker, Azure, and Git to build efficient systems.`;
 
 export const EXPERIENCES = [
     {
@@ -32,13 +32,6 @@ export const PROJECTS = [
     "technologies": ["Reactjs", "Tailwind"]
   },
   {
-    "title": "Real-time Wav2Lip",
-    "image": project3,
-    // "description": "Modified an existing audio-video processing project by optimizing the model from PyTorch to OpenVINO for enhanced inference speed. Implemented real-time audio processing to synchronize audio with video frames dynamically. Developed a basic Streamlit front-end for an intuitive user interface, enabling seamless integration and efficient processing of audio files with silent video inputs.",
-    "description": "Optimized an audio-video processing project to enable real-time synchronization of audio with video frames. The system dynamically matches lip movements to the audio, creating a seamless experience. A simple front-end interface allows users to upload and process files effortlessly.",
-    "technologies": ["Python", "PyTorch", "OpenVINO", "Streamlit", "PyAudio", "Numpy"]
-  },
-  {
     "title": "Personal Budget Planning Application",
     "image": project2,
     //"description": "Developed a budget management application allowing users to track income, expenses, and budgets with an intuitive user interface.",
@@ -50,6 +43,13 @@ export const PROJECTS = [
     "image": project3,
     "description": "Designed and implemented a web application for ordering pizzas online. Administrators can manage the menu, view orders, and update pricing easily.",
     "technologies": ["Spring Boot", "Angular", "Oracle"]
+  },
+  {
+    "title": "Real-time Wav2Lip",
+    "image": project3,
+    // "description": "Modified an existing audio-video processing project by optimizing the model from PyTorch to OpenVINO for enhanced inference speed. Implemented real-time audio processing to synchronize audio with video frames dynamically. Developed a basic Streamlit front-end for an intuitive user interface, enabling seamless integration and efficient processing of audio files with silent video inputs.",
+    "description": "Optimized an audio-video processing project to enable real-time synchronization of audio with video frames. The system dynamically matches lip movements to the audio, creating a seamless experience. A simple front-end interface allows users to upload and process files effortlessly.",
+    "technologies": ["Python", "PyTorch", "OpenVINO", "Streamlit", "PyAudio", "Numpy"]
   },
   {
     "title": "Secret Sharing System",
