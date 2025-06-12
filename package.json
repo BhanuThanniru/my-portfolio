@@ -1,11 +1,11 @@
 {
-  "name": "my-portfolio",
-  "homepage": "https://bhanuthanniru.github.io/my-portfolio",
+  "name": "portfolio",
+  "homepage": "https://bhanuthanniru.github.io/portfolio",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "dev": "node node_modules/vite/bin/vite.js",
+    "dev": "vite.js",
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview",
