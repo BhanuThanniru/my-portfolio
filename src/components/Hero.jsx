@@ -1,7 +1,8 @@
 import profilePic from '../assets/bsst.jpg'
 import { HERO_CONTENT} from "../constants"
 import { motion } from 'framer-motion'
-import { resume } from '../../src/assets/projects/Bhanu_Saisree_Thanniru.pdf'
+import { resume } from '../assets/projects/Bhanu_Saisree_Thanniru.pdf'
+
 const containerVariants = {
     hidden: { opacity: 0, x: -100},
     visible: {
