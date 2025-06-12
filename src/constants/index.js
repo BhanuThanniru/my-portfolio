@@ -1,7 +1,8 @@
-import project1 from "../assets/projects/project-1.webp";
-import project2 from "../assets/projects/project-2.webp";
-import project3 from "../assets/projects/project-3.webp";
-import project4 from "../assets/projects/project-4.webp";
+import project1 from "../assets/projects/personal_portfolio.webp";
+import project2 from "../assets/projects/budget_planner.webp";
+import project3 from "../assets/projects/pizza_app.webp";
+import project4 from "../assets/projects/wav2lip.webp";
+import project5 from "../assets/projects/secret_sharing.webp";
 
 export const HERO_CONTENT = `I am a Software Engineer with 3 years of experience in designing, developing, and deploying software solutions. Specializing in Full-Stack Development, I work with technologies like Java, Spring Boot, Angular, React, Next.js, and Node.js. Throughout my career, I have successfully delivered complex projects while focusing on writing clean, efficient code. I am driven by the opportunity to solve technical challenges and create solutions that enhance user experiences and contribute to business success.`;
 
@@ -19,8 +20,8 @@ export const EXPERIENCES = [
       "year": "2021 - 2024",
       "role": "Senior Software Analyst",
       "company": "Capgemini Technology Services India Limited",
-      "description": "Developed and optimized process management applications using workflow tools. Led technology modernization projects, designed workflows, built dashboards, and developed user interfaces. Collaborated with clients to gather requirements and delivered scalable solutions.",
-      "technologies": ["Java", "CSS", "JavaScript", "jQuery", "PostgreSQL", "MySQL", "Joget"]
+      "description": "Designed and developed enterprise applications using Java, Spring Boot, and Angular, replacing legacy systems with modern full-stack solutions. Created RESTful APIs with role-based workflows, automated SLAs, and PostgreSQL procedures. Built workflow-based process management tools featuring dynamic dashboards and responsive UIs to streamline operations and enhance user experience.",
+      "technologies": ["Java", "Spring", "Springboot", "CSS", "JavaScript", "jQuery", "PostgreSQL", "MySQL", "Joget"]
     },
 ];
 
@@ -34,7 +35,6 @@ export const PROJECTS = [
   {
     "title": "Personal Budget Planning Application",
     "image": project2,
-    //"description": "Developed a budget management application allowing users to track income, expenses, and budgets with an intuitive user interface.",
     "description": "Developed an application for managing personal finances, allowing users to track their income, expenses, and set budget goals. The app provides visual insights into financial trends and helps users make informed decisions. It offers an easy-to-use, interactive interface for financial management.",
     "technologies": ["Node.js", "Angular", "Material-UI", "D3.js", "Firebase"]
   },
@@ -46,15 +46,13 @@ export const PROJECTS = [
   },
   {
     "title": "Real-time Wav2Lip",
-    "image": project3,
-    // "description": "Modified an existing audio-video processing project by optimizing the model from PyTorch to OpenVINO for enhanced inference speed. Implemented real-time audio processing to synchronize audio with video frames dynamically. Developed a basic Streamlit front-end for an intuitive user interface, enabling seamless integration and efficient processing of audio files with silent video inputs.",
+    "image": project4,
     "description": "Optimized an audio-video processing project to enable real-time synchronization of audio with video frames. The system dynamically matches lip movements to the audio, creating a seamless experience. A simple front-end interface allows users to upload and process files effortlessly.",
     "technologies": ["Python", "PyTorch", "OpenVINO", "Streamlit", "PyAudio", "Numpy"]
   },
   {
     "title": "Secret Sharing System",
-    "image": project4,
-    //"description": "Built a Python-based system to securely distribute data shares. The system reconstructs the original message when a threshold number of shares are combined.",
+    "image": project5,
     "description": "Developed a secure system that divides sensitive information into multiple parts, which can only be reconstructed when a threshold number of parts are combined. This cryptographic method ensures data confidentiality and is useful for securely sharing secrets.",
     "technologies": ["Python"]
   },

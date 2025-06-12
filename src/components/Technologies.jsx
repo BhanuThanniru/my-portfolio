@@ -1,6 +1,5 @@
 import { FaAws, FaNodeJs } from "react-icons/fa"
 import { RiReactjsLine } from "react-icons/ri"
-// import { TbBrandNextjs } from "react-icons/tb"
 import { SiMongodb, SiMysql, SiJira, SiTypescript, SiTableau } from "react-icons/si"
 import { FaJava } from "react-icons/fa"
 import { FaPython } from "react-icons/fa"
@@ -37,9 +36,6 @@ const Technologies = () => {
             <motion.div initial="initial" animate="animate" variants={iconVariants(3)}>
                 <FaAngular className="text-7xl text-red-600" />
             </motion.div>
-            {/* <motion.div initial="initial" animate="animate" variants={iconVariants(3)}>
-                <TbBrandNextjs className="text-7xl" />
-            </motion.div> */}
             <motion.div initial="initial" animate="animate" variants={iconVariants(3)}>
                 <RiReactjsLine className="text-7xl text-cyan-400" />
             </motion.div>
