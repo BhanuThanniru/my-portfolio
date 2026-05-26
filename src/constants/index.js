@@ -4,17 +4,24 @@ import project3 from "../assets/projects/pizza_app.webp";
 import project4 from "../assets/projects/wav2lip.webp";
 import project5 from "../assets/projects/secret_sharing.webp";
 
-export const HERO_CONTENT = `I am a Software Engineer with 3 years of experience in designing, developing, and deploying software solutions. Specializing in Full-Stack Development, I work with technologies like Java, Spring Boot, Angular, React, Next.js, and Node.js. Throughout my career, I have successfully delivered complex projects while focusing on writing clean, efficient code. I am driven by the opportunity to solve technical challenges and create solutions that enhance user experiences and contribute to business success.`;
+export const HERO_CONTENT = `I am a Software Engineer with experience in designing, developing, and deploying software solutions. Specializing in Full-Stack Development, I work with technologies like Java, Spring Boot, Python, Angular, React, Next.js, and Node.js. Throughout my career, I have successfully delivered complex projects while focusing on writing clean, efficient code. I am driven by the opportunity to solve technical challenges and create solutions that enhance user experiences and contribute to business success.`;
 
 export const ABOUT_TEXT = `A highly adaptable and results-driven Software Engineer with over 3 years of professional experience in full-stack development, including proficiency in Java, Workflow, Node.js, and TypeScript. Skilled in developing applications and optimizing business processes, with expertise in MySQL, PostgreSQL, and MongoDB. Demonstrated success in collaborating with agile teams, streamlining workflows, and delivering innovative solutions for diverse industries. Adept at embracing challenges, driving technical modernization, and leveraging tools like Docker, Azure, and Git to build efficient systems.`;
 
 export const EXPERIENCES = [
     {
-      "year": "2024 - Present",
-      "role": "Graduate Teaching Assistant",
+       "year": "2026 - 2026",
+      "role": "Software Engineer",
+      "company": "Northern Kytes",
+      "description": "Lead development of a scalable multi-tenant platform using React, FastAPI, and Azure, improving onboarding, security, and enterprise data management through standardized APIs, RBAC, and cloud-native deployments.",
+      "technologies": ["React", "FastAPI", "Python", "Azure SQL", "SQLAlchemy", "Azure Blob Storage", "Azure Container Apps", "JWT", "REST APIs", "Pydantic", "JavaScript", "HTML", "CSS"]
+    },
+    {
+      "year": "2024 - 2025",
+      "role": "Graduate Assistant",
       "company": "University of North Carolina at Charlotte",
-      "description": "Assisting students with web application design and development courses. Grading assignments and providing support during lab sessions to enhance their understanding of programming concepts and best practices.",
-      "technologies": ["HTML", "CSS", "JavaScript", "API Fetch", "C", "Assembly Language"]
+      "description": "Built full-stack research and departmental tools using Spring Boot, React, PostgreSQL, and Python, improving research data processing, reporting, and visualization for faculty and students. Collaborated in Agile-style development while supporting AI/ML research through scalable backend services and data-driven solutions. Assisted students with web application design and development courses. Graded assignments and provided support during lab sessions to enhance their understanding of programming concepts and best practices.",
+      "technologies": ["HTML", "CSS", "JavaScript", "API Fetch", "C", "Assembly Language", "React"]
     },
     {
       "year": "2021 - 2024",
