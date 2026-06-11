@@ -13,8 +13,8 @@ export const EXPERIENCES = [
        "year": "2026 - 2026",
       "role": "Software Engineer",
       "company": "Northern Kytes",
-      "description": "Lead development of a scalable multi-tenant platform using React, FastAPI, and Azure, improving onboarding, security, and enterprise data management through standardized APIs, RBAC, and cloud-native deployments.",
-      "technologies": ["React", "FastAPI", "Python", "Azure SQL", "SQLAlchemy", "Azure Blob Storage", "Azure Container Apps", "JWT", "REST APIs", "Pydantic", "JavaScript", "HTML", "CSS"]
+      "description": "Led development of a scalable multi-tenant platform using React, FastAPI, and Azure, improving onboarding, security, and enterprise data management through standardized APIs, RBAC, and cloud-native deployments.",
+      "technologies": ["React", "FastAPI", "Python", "Azure SQL", "SQLAlchemy", "Azure Blob Storage", "Azure Container Apps", "JWT", "REST APIs", "Pydantic", "JavaScript", "HTML", "CSS", "RAG"]
     },
     {
       "year": "2024 - 2025",
